@@ -10,6 +10,8 @@ elif which brew >/dev/null &&
   . "$BREW_DIR/opt/asdf/asdf.sh"
 fi
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # mkdir .git/safe in the root of repositories you trust
 PATH=".git/safe/../../bin:$PATH"
 

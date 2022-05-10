@@ -31,3 +31,5 @@
 [user]
 	name = magurotabetai
 	email = 3165765+magurotabetai@users.noreply.github.com
+[pull]
+	ff = only
